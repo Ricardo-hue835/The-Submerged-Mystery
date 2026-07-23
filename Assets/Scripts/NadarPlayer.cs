@@ -13,7 +13,7 @@ public class NadarPlayer : MonoBehaviour
     [Header("Componentes de Animação")]
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private string nomeParametroAnimacao = "IsWalking"; // Nome da variável Bool no Animator
+    [SerializeField] private string nomeParametroAnimacao = "Nadando"; // Nome da variável Bool no Animator
 
     private Rigidbody2D rb2d;
     private Vector2 direcaoMovimento;
